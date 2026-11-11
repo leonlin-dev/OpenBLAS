@@ -1,0 +1,6 @@
+# studio-everything adaptation: pin LF for text files
+*.h text eol=lf
+*.c text eol=lf
+*.f text eol=lf
+*.json text eol=lf
+*.ps1 text eol=lf

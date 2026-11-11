@@ -1,0 +1,21 @@
+{
+  "name": "OpenBLAS",
+  "version": "0.3.26",
+  "upstream": "https://github.com/OpenMathLib/OpenBLAS.git",
+  "upstream_ref": "v0.3.26@6c77e5e3",
+  "asset": {
+    "url": "https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.26/OpenBLAS-0.3.26-x64.zip",
+    "filename": "OpenBLAS-0.3.26-x64.zip",
+    "sha256": "859c510a962a30ef1b01aa93cde26fdb5fb1050f94ad5ab2802eba3731935e06"
+  },
+  "kind": "binary-release-asset",
+  "install": {
+    "zw_dir": "OpenBLAS/OpenBLAS-0.3.26",
+    "copy": [
+      { "from": "include", "to": "include" },
+      { "from": "lib", "to": "lib" },
+      { "from": "bin", "to": "bin" }
+    ]
+  },
+  "patches": []
+}
